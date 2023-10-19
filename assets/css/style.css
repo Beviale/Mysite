@@ -721,6 +721,13 @@ section {
   transform: none;
 }
 
+.stay-close {
+display: flex;
+flex-flow: row nowrap;
+align-items: flex-end;
+justify-content: flex-start;
+}
+
 
 
 
