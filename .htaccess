@@ -1,5 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^www\.vecchiodominio\.com$
-RewriteRule (.*) https://beviale.github.io/mysite/home/$1 [R=301,L]
-RewriteCond %{HTTP_HOST} !^vecchiodominio\.com$
-RewriteRule (.*) https://beviale.github.io/mysite/$1 [R=301,L]
